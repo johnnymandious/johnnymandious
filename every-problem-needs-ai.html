@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#070708">
+  <meta name="description" content="Every AI problem seems to need more AI">
+  <title>Every AI problem seems to need more AI | Johnny Mandious</title>
+  <link rel="icon" href="../favicon.svg?v=2" type="image/svg+xml">
+  <link rel="stylesheet" href="../journal.css?v=8">
+  <style>
+    .reading-progress{position:fixed;inset:0 auto auto 0;width:0;height:3px;background:var(--red);box-shadow:0 0 12px #ff2639;z-index:20}
+    .reading-body{max-width:780px;margin:auto}
+    .reading-body>p:first-child{font-size:21px;color:#eef1f1}
+    .ai-loop{margin:38px 0 44px;padding:22px;border:1px solid #592a32;background:#0c0c0f}
+    .ai-loop-head{margin-bottom:18px}
+    .ai-loop-title{font:700 11px/1.5 var(--mono);letter-spacing:.1em;color:#ff8d97;text-transform:uppercase}
+    .ai-loop svg{display:block;width:100%;height:auto}
+    .ai-loop .node{fill:#111216;stroke:#72404a;stroke-width:1.5}
+    .ai-loop .core{fill:#220d12;stroke:#ff2639;stroke-width:2}
+    .ai-loop .line{fill:none;stroke:#6a3b44;stroke-width:2;stroke-dasharray:6 7}
+    .ai-loop .pulse{fill:#ff2639;opacity:0}
+    .ai-loop text{fill:#d8dfe0;font:700 12px var(--mono);letter-spacing:.04em;text-anchor:middle}
+    .ai-loop text.sub{fill:#9da7ad;font-size:9px;font-weight:400}
+    .ai-loop .line{stroke:#ff2639;animation:loopDash 1.1s linear infinite}
+    .ai-loop .pulse{opacity:1;animation:loopPulse 1.1s ease-in-out infinite alternate}
+    @keyframes loopDash{to{stroke-dashoffset:-26}}
+    @keyframes loopPulse{to{opacity:.25;r:29}}
+    .report-card{display:block;position:relative;min-height:310px;margin:42px 0 10px;overflow:hidden;border:1px solid #592a32;background:#111;color:#fff}
+    .report-card>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.58;filter:saturate(.75) contrast(1.08)}
+    .report-card:after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 5%,#09090bee 88%)}
+    .report-card-copy{position:absolute;z-index:1;left:24px;right:24px;bottom:23px}
+    .anthropic-mark{display:flex;align-items:center;gap:10px;margin-bottom:14px;font:700 11px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:#ff8d97}
+    .anthropic-mark svg{width:24px;height:18px;fill:currentColor}
+    .report-card strong{display:block;max-width:620px;font-size:clamp(20px,3vw,29px);line-height:1.2}
+    .report-card small{display:block;margin-top:9px;font:9px/1.5 var(--mono);letter-spacing:.08em;color:#ff8993}
+    @media(max-width:450px){.reading-body>p:first-child{font-size:18px}.ai-loop{padding:16px}.ai-loop text{font-size:10px}.report-card{min-height:260px}.report-card-copy{left:18px;right:18px}}
+    @media(prefers-reduced-motion:reduce){.reading-progress{display:none}}
+  </style>
+</head>
+<body>
+  <div class="reading-progress" aria-hidden="true"></div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="../index.html" aria-label="Johnny Mandious home">
+      <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 4 44 40H4Z M24 16 34 34H14Z M24 26V4 M24 26 4 40 M24 26 44 40"/></svg>
+      <span>JOHNNY<span class="red">MANDIOUS</span></span>
+    </a>
+    <nav aria-label="Main navigation"><a href="../index.html" aria-current="page">Journal</a><a href="../about.html">About</a></nav>
+  </header>
+  <main id="main" tabindex="-1">
+    <div class="post-breadcrumb"><a href="../index.html">← ALL ENTRIES</a><span>JOURNAL / 001</span></div>
+    <article class="reading-layout panel">
+      <header class="reading-header">
+        <h1>Every AI problem seems to need more AI</h1>
+        <div class="reading-meta"><span>JOHNNY MANDIOUS</span><span>15 SEPTEMBER 2026</span></div>
+      </header>
+      <div class="reading-body">
+        <p>I've spent quite a while reading Anthropic's <a href="https://www.anthropic.com/threat-intelligence-report-september-2026#cyber-operations-sep-26" target="_blank" rel="noopener noreferrer">Detecting and countering misuse of AI report</a>, it contains something I don't know why I didn't consider; criminals and state actors misusing AI. I assumed they couldn't because they wouldn't have much use with it due to possible restrictions, flagged accounts. This report opened my eyes to the reality a lot more, its misuse is on a global scale in many more areas than I expected. Not Fable level but Opus, Sonnet and Haiku very much so.</p>
+
+        <p>AI seems to lower the floor for some hacking tasks. What I didn't expect criminals would do is go straight to Anthropic. I expected the standard uncensored Qwen or Meta open source models used locally, which I assumed would produce poor outputs. I thought this because I assumed you couldn't get very far on a company's servers. A lot seems to depend on what models criminals can access now and in the future which will tolerate these kinds of questions.</p>
+
+        <p>Reading this, it feels like every AI threat gets answered with more AI. AI systems all throughout this report are used with or against other AIs. There's a lot in this report and I mean a lot, so I'll only mention some ones which interested me.</p>
+
+        <div class="ai-loop" aria-label="Interactive diagram showing AI used by both attackers and defenders">
+          <div class="ai-loop-head"><span class="ai-loop-title">Every AI threat gets answered with more AI</span></div>
+          <svg viewBox="0 0 700 245" role="img" aria-labelledby="loop-title loop-desc">
+            <title id="loop-title">AI versus AI loop</title>
+            <desc id="loop-desc">Threat actors use AI to increase attacks while defenders use AI to improve detection, continuing the cycle.</desc>
+            <path class="line" d="M170 70 C250 18 450 18 530 70 M530 175 C450 228 250 228 170 175"/>
+            <path class="line" d="M112 112 C90 125 90 135 112 148 M588 112 C610 125 610 135 588 148"/>
+            <circle class="pulse" cx="350" cy="122" r="18"/>
+            <rect class="node" x="35" y="76" width="150" height="92" rx="4"/>
+            <rect class="core" x="275" y="76" width="150" height="92" rx="4"/>
+            <rect class="node" x="515" y="76" width="150" height="92" rx="4"/>
+            <text x="110" y="116">ATTACKERS</text><text class="sub" x="110" y="138">adapt and evade</text>
+            <text x="350" y="116">AI vs AI</text><text class="sub" x="350" y="138">the feedback loop</text>
+            <text x="590" y="116">DEFENDERS</text><text class="sub" x="590" y="138">detect and respond</text>
+          </svg>
+        </div>
+
+        <p>First was toolkits; pre-made tools to commit malicious activities, as far as my limited knowledge goes. I've heard of ransomware groups releasing toolkits and selling their software, which some groups make more money from selling than using because they can be deployed anywhere. My understanding from the report is that AI makes it easier to keep modifying these tools so they're harder for defenders to identify and stop. Russian attackers were reportedly using Claude to detect which toolkits evaded detection, modifying them bit by bit until they did.</p>
+
+        <p>Anthropic don't hold back on their info; they show full IP addresses, dates they were active, usernames and a lot of identifying information. One included the exact company someone worked at and the school they went to.</p>
+
+        <p>The report also describes Radio Lengo Songo, a propaganda radio station, using Claude to make pro-Russian talking points and as their HR; job descriptions and advice on who they should fire. There's a whole lot of politics, propaganda, religion and hacktivist examples, even surveillance by China and Iran. It's being used in far more areas than I realised. Weapon development, virus research in specific contexts; I'm scared of how effective AI could become at helping people make horrific weapons.</p>
+
+        <p>The most interesting one to me was the distillation scenario; distillation simply put is where a smaller 'student' AI is trained on a larger 'teacher' pre-existing AI. Many prompts are asked and the smaller AI studies its outputs to mimic the larger AI. It's obviously more complicated than that but that's the gist. It can be an effective training method and cheaper than training from scratch. I did hear about it a year or two ago.</p>
+
+        <p>The report describes networks of accounts, many using stolen cards, credentials or API keys, that exist for the sole purpose of asking questions and using that data in model training. It describes Chinese firms attempting to avoid distillation detection by asking directly not to flag the request or by a longer message claiming to be in a debugging session. They try to get the model's reasoning, which goes above my head as to specifically why, but I assume it's more valuable to know how the model reached an answer than only the answer itself.</p>
+
+        <p>It's a cat and mouse game; Anthropic increase their defence to stop unauthorised distillation from happening, Chinese firms increase their workaround... how? Take a fucking guess; AI. According to the report, they brute force different requests to see which distillation method works and then use that one; they use AI agents to brute force prompts to steal AI data to train their AI, fucking hell.</p>
+
+        <p>The report names firms behind models including Deepseek, Qwen, Mimo, GLM and Kimi. Distillation itself isn't what I'm calling immoral here; it's the stolen accounts, taking data without permission and how customer prompts are used.</p>
+
+        <p>The report says that some of these companies do a really smart but immoral tactic; they route user prompts through Claude and back to the user and also use those exchanges for distillation and training their models. They get the illusion of looking better than they are and they get to train their models in the process. That doesn't make Anthropic's own use of training data right either.</p>
+
+        <p>According to the report, it allowed Claude to see internal company data and sensitive information from companies, governments and citizens.</p>
+
+        <p>It makes me question how much of the performance I've seen people praise on X or on benchmarks comes from these firms' own development and how much from distillation. I think they rely on a mix of both in-house development and taking data from other models, but who's to say what percent of either is true.</p>
+
+        <p>The report also raises concerns about safeguards not carrying over to the student model. Maybe not the most dangerous now but with enough time, that could become a huge risk. In China's defence, maybe they're pissed off about the chip bans and there's probably a lot of fear with the US being in the lead, but it doesn't justify the practices described here.</p>
+
+        <p>I missed a lot out and eventually skimmed some parts, this was a very big report. The intelligence in this is amazing, it's so cool to see behind the scenes.</p>
+
+        <p>This to me looks like the next atom bomb; the fear that whoever doesn't have it is pretty fucked, the other can dominate you and we want to build it first so we can be 'safe'. It's been the case for many other things; space and anti-satellite weapons, nukes, cyberweapons. What scares me about AI is how many things it could impact.</p>
+
+        <p>If you've got the time, give Anthropic's report a read<br><a href="https://www.anthropic.com/threat-intelligence-report-september-2026#cyber-operations-sep-26" target="_blank" rel="noopener noreferrer">https://www.anthropic.com/threat-intelligence-report-september-2026#cyber-operations-sep-26</a></p>
+
+        <a class="report-card" href="https://www.anthropic.com/threat-intelligence-report-september-2026#cyber-operations-sep-26" target="_blank" rel="noopener noreferrer">
+          <img src="https://cdn.sanity.io/images/4zrzovbb/website/7a4426f8ffe57e7de23ff36906fb1cc3efe2a82b-1200x630.jpg" alt="Anthropic threat intelligence report artwork" loading="lazy">
+          <span class="report-card-copy">
+            <span class="anthropic-mark"><svg viewBox="0 0 46 32" aria-hidden="true"><path d="M32.73 0h-6.945L38.45 32h6.945L32.73 0ZM12.665 0 0 32h7.082l2.59-6.72h13.25l2.59 6.72h7.082L19.929 0h-7.264Zm-.702 19.337 4.334-11.246 4.334 11.246h-8.668Z"/></svg>Anthropic</span>
+            <strong>Detecting and countering misuse of AI: September 2026</strong>
+            <small>READ THE REPORT ↗</small>
+          </span>
+        </a>
+      </div>
+      <nav class="post-navigation" aria-label="Other journal entries"><a href="../index.html">← BACK TO JOURNAL</a><a href="AI-bigger-than-i-thought.html">NEXT ENTRY →</a></nav>
+    </article>
+  </main>
+  <footer><span>JOHNNY<span class="red">MANDIOUS</span></span><a href="#main">BACK TO TOP ↑</a></footer>
+  <script>
+    const progress = document.querySelector('.reading-progress');
+    const updateProgress = () => {
+      const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+      progress.style.width = `${scrollable > 0 ? (window.scrollY / scrollable) * 100 : 0}%`;
+    };
+    updateProgress();
+    addEventListener('scroll', updateProgress, {passive:true});
+    addEventListener('resize', updateProgress);
+  </script>
+</body>
+</html>
