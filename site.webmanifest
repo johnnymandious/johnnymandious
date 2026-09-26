@@ -1,0 +1,15 @@
+{
+  "name": "Johnny Mandious",
+  "short_name": "Mandious",
+  "description": "Art, an AI blog and thoughts on longevity by Johnny Mandious.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#070708",
+  "theme_color": "#070708",
+  "icons": [
+    {"src": "assets/brand/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "assets/brand/icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "assets/brand/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
