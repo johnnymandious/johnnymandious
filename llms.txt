@@ -1,0 +1,33 @@
+# Johnny Mandious
+
+> The personal website of Johnny Mandious: original drawings (often inspired by Cyberpunk 2077), a personal AI blog written since 2022, and a page about longevity, cryonics and life extension. Posts are first-hand opinions written at the time; archive entries keep the views held when they were written.
+
+## Main pages
+
+- [Art (homepage)](https://johnnymandious.com/): drawings and artwork
+- [AI Blog](https://johnnymandious.com/blog.html): every blog entry with a year timeline
+- [Longevity](https://johnnymandious.com/longevity.html): longevity posts and the longest verified human lifespans
+- [About](https://johnnymandious.com/about.html): who Johnny Mandious is
+- [RSS feed](https://johnnymandious.com/feed.xml)
+
+## Posts
+
+- [Meaning without employment](https://johnnymandious.com/posts/meaning-without-employment.html) (2026-09-23): Thinking about AI, the value of human work and what gives life meaning if employment becomes less necessary.
+- [Opus 5.5 and GPT-6 Sol](https://johnnymandious.com/posts/opus-5-5-and-gpt-6-sol.html) (2026-09-22): Opus 5.5 and GPT-6 Sol, Terra and Luna just dropped. My thoughts on intelligence, cost and the pace of AI progress.
+- [AI, living to 150 and Agemica](https://johnnymandious.com/posts/ai-living-to-150-and-agemica.html) (2026-09-22): My thoughts on AI, living to 150, Agemica and why its crypto token made me suspicious.
+- [Why I believe a slowdown will never occur](https://johnnymandious.com/posts/why-i-believe-a-slowdown-will-never-occur.html) (2026-09-21): Why I believe a meaningful AI slowdown is unlikely while companies and countries are locked in a race toward increasingly capable systems.
+- [Every AI problem seems to need more AI](https://johnnymandious.com/posts/every-problem-needs-ai.html) (2026-09-15): Reading about AI misuse, automated attacks and the growing use of AI to defend against other AI systems.
+- [AI suddenly feels a lot bigger than I thought](https://johnnymandious.com/posts/AI-bigger-than-i-thought.html) (2026-09-15): A personal reaction to AI at work, rapid progress and the possible futures described in AI 2027.
+- [Trying Claude after ChatGPT and Gemini](https://johnnymandious.com/posts/trying-claude.html) (2026-03): My first proper go with Claude: communication, coding games, usage limits and the companies behind AI.
+- [AI, jobs and the case for UBI](https://johnnymandious.com/posts/ai-jobs-and-ubi.html) (2025-12-09): Thinking about automation, the job market and whether universal basic income could become necessary.
+- [Learning about AI through OLWA](https://johnnymandious.com/posts/learning-through-olwa.html) (2025-03): Writing the third issue of OLWA and learning about AI companies, world models and the growing list of chatbots.
+- [DeepSeek changes the conversation](https://johnnymandious.com/posts/deepseek-changes-the-conversation.html) (2025-01-27): My first reaction to DeepSeek and what cheaper, locally runnable AI could mean for everyone else.
+- [ChatGPT can remember things now](https://johnnymandious.com/posts/chatgpt-memory.html) (2024-09-05): Trying ChatGPT’s memory feature and making a custom chatbot by talking to another chatbot.
+- [GPT-4o: incredible and terrifying](https://johnnymandious.com/posts/gpt-4o-incredible-and-terrifying.html) (2024-05-13): Live conversations, image generation and deepfakes. Watching AI improve and wondering where it ends.
+- [Gemini, subscriptions and learning Python](https://johnnymandious.com/posts/gemini-and-learning-python.html) (2024-02-14): Testing Gemini against ChatGPT and looking into learning Python to understand AI a little better.
+- [Giving Bard a chance](https://johnnymandious.com/posts/giving-bard-a-chance.html) (2023-03-29): Trying Google Bard, comparing it with ChatGPT and thinking about what plugins might change.
+- [GPT-4 is here. Where does this end?](https://johnnymandious.com/posts/gpt-4-is-here.html) (2023-03-15): A first reaction to GPT-4, AI coding, language learning and how quickly this is all moving.
+- [Waiting for GPT-4](https://johnnymandious.com/posts/waiting-for-gpt-4.html) (2023-03-06): It feels like the early days of something potentially massive, a bit like the early internet.
+- [Google enters the AI race](https://johnnymandious.com/posts/google-enters-the-ai-race.html) (2023-02-11): My reaction to Bard, Microsoft’s investment in OpenAI and the idea of a different kind of search.
+- [My first conversation with ChatGPT](https://johnnymandious.com/posts/first-conversation-with-chatgpt.html) (2022-12-20): Trying ChatGPT for writing, learning Spanish and answering questions. Impressed, excited and a bit worried.
+- [Trying DALL-E 2 for the first time](https://johnnymandious.com/posts/trying-dall-e-2.html) (2022-07-31): My first go with DALL-E 2, and what AI image generation might mean for artists and creative work.
