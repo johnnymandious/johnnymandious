@@ -263,7 +263,7 @@ summary:focus-visible,.timeline nav:focus-visible{outline:2px solid white;outlin
 .record-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
 .record-card{padding:30px;display:flex;flex-direction:column;gap:16px;overflow:hidden}
 .record-photo{margin:-30px -30px 2px;border-bottom:1px solid var(--line);background:#141416}
-.record-photo img{display:block;width:100%;height:auto;aspect-ratio:1.5;object-fit:cover}
+.record-photo img{display:block;width:100%;max-width:280px;margin:0 auto;height:auto;aspect-ratio:1.5;object-fit:cover}
 .record-photo figcaption{padding:8px 12px;color:var(--muted);font:10px/1.5 var(--mono);letter-spacing:.04em}
 .record-card h3{font-size:29px;line-height:1.25}
 .record-card .eyebrow{color:#ff8993}
@@ -336,25 +336,14 @@ summary:focus-visible,.timeline nav:focus-visible{outline:2px solid white;outlin
 .no-results{grid-column:1/-1;padding:22px;color:#c7d0d2}
 .no-results button{margin-left:8px;padding:6px 10px;border:1px solid #9b3441;background:#171014;color:#fff;font:700 12px/1.4 var(--mono);cursor:pointer}
 .no-results button:hover{background:var(--red);color:#070708}
-.latest-writing{margin-top:10px;padding-top:44px;border-top:1px solid #2f1a1f}
-.latest-heading{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:12px 24px}
-.latest-heading h2{font-size:clamp(25px,3vw,36px)}
-.latest-heading .text-link{font:700 12px/1.6 var(--mono)}
-.latest-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
-.latest-card{display:flex;flex-direction:column}
-.latest-card .card-copy .eyebrow{margin:0 0 8px}
-.latest-card h3{font-size:21px;line-height:1.25;letter-spacing:-.02em;margin-bottom:12px}
-.latest-card h3 a:hover{color:var(--red)}
 .art-lightbox-nav{display:flex;gap:8px;margin:0 auto 4px 0}
 .art-lightbox-bar{display:flex;align-items:center;gap:8px}
 .art-lightbox-bar .art-lightbox-close{margin-left:auto}
 .art-lightbox-nav button{padding:7px 12px;border:1px solid #9b3441;background:#171014;color:#fff;font:13px/1.4 var(--mono);cursor:pointer}
 .art-lightbox-nav button:hover,.art-lightbox-nav button:focus-visible{background:var(--red);color:#070708}
 button:focus-visible{outline:2px solid #fff;outline-offset:3px}
-@media(max-width:900px){.latest-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:1000px){.post-share{padding:18px 28px}}
 @media(max-width:560px){
- .latest-grid{grid-template-columns:1fr}
  .post-share{padding:18px 21px}
  .post-navigation{flex-direction:column}
  .post-navigation .post-nav-link{max-width:none}
