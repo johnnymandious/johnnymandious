@@ -86,6 +86,8 @@ main{width:90%;max-width:1200px;margin:auto;padding-bottom:72px;min-height:calc(
 footer{max-width:1200px;width:90%;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:25px 0;border-top:1px solid var(--line);font:9px/1.6 var(--mono);color:var(--muted)}
 footer>span{letter-spacing:.08em}
 footer>span .red{margin-left:4px}
+footer .ai-note{color:var(--muted);letter-spacing:.04em;text-decoration:underline;text-underline-offset:3px}
+footer .ai-note:hover{color:var(--red)}
 
 @media(max-width:1000px){
   .brand{font-size:16px}
