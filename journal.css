@@ -257,6 +257,8 @@ summary:focus-visible,.timeline nav:focus-visible{outline:2px solid white;outlin
 .longevity-post-copy p:not(.eyebrow){color:#bac5cb;line-height:1.7}
 .longevity-post-copy>a{margin-top:auto;color:#f2c9cd;font:700 11px/1.7 var(--mono);letter-spacing:.04em}
 .longevity-post-copy>a:hover{color:var(--red)}
+.longevity-post-card+.longevity-post-card{margin-top:24px}
+.longevity-post-card img[src$=".jpg"]{object-fit:cover}
 @media(max-width:600px){.longevity-post-card{grid-template-columns:1fr}.longevity-post-card img{height:auto;min-height:0;aspect-ratio:2;object-fit:contain;border-right:0;border-bottom:1px solid var(--line)}.longevity-post-copy{padding:23px}}
 .longevity-records .section-heading h2{font-size:clamp(25px,3vw,36px)}
 .records-checked{margin-top:12px;color:var(--muted);font:11px/1.7 var(--mono)}
