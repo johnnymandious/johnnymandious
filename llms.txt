@@ -12,6 +12,7 @@
 
 ## Posts
 
+- [Mistral just caught up](https://johnnymandious.com/posts/mistral-large-4.html) (2026-10-07): Mistral Large 4 jumped from 9 to 38 on the Intelligence Index, making it the best open model outside China and level with GPT-6 Luna.
 - [The motives behind LLMs](https://johnnymandious.com/posts/the-motives-behind-llms.html) (2026-10-06): An OpenAI model read that it might be shut down and wrote “we may die”. Why do AI models seem to want to live? Reward hacking, the German wiki and 2026 so far.
 - [Meaning without employment](https://johnnymandious.com/posts/meaning-without-employment.html) (2026-09-23): Thinking about AI, the value of human work and what gives life meaning if employment becomes less necessary.
 - [Opus 5.5 and GPT-6 Sol](https://johnnymandious.com/posts/opus-5-5-and-gpt-6-sol.html) (2026-09-22): Opus 5.5 and GPT-6 Sol, Terra and Luna just dropped. My thoughts on intelligence, cost and the pace of AI progress.
