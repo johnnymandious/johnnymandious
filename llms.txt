@@ -7,6 +7,7 @@
 - [Art (homepage)](https://johnnymandious.com/): drawings and artwork
 - [AI Blog](https://johnnymandious.com/blog.html): every blog entry with a year timeline
 - [Longevity](https://johnnymandious.com/longevity.html): longevity posts and the longest verified human lifespans
+- [Deep Space 2103 (radio)](https://johnnymandious.github.io/radio/): a free, non-stop deep space music radio station of space ambient, synthwave and Berlin School albums under Creative Commons licences
 - [About](https://johnnymandious.com/about.html): who Johnny Mandious is
 - [RSS feed](https://johnnymandious.com/feed.xml)
 
