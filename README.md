@@ -10,6 +10,7 @@ The source for [johnnymandious.com](https://johnnymandious.com/): art, an AI blo
 | `blog.html` | AI Blog: every entry, with search, year filters and a timeline |
 | `longevity.html` | Longevity posts plus the longest verified human lifespans |
 | `about.html` | About, plus a "Start here" reading list |
+| Radio | Lives in its own repository, [johnnymandious/radio](https://github.com/johnnymandious/radio), at https://johnnymandious.github.io/radio/. Every page's menu links to it between Longevity and About |
 | `posts/*.html` | Individual posts, each with reading time, share buttons and newer/older links |
 | `404.html` | Not-found page (uses root-relative links because GitHub Pages serves it at any path) |
 | `art.html`, `journal.html` | Old addresses that redirect to the homepage and blog |
