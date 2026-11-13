@@ -66,7 +66,7 @@
         apply();
       }
     });
-    // Support links such as blog.html?q=claude
+    // Support links such as /?q=claude
     const initial = new URLSearchParams(location.search).get('q');
     if (initial) input.value = initial;
   }

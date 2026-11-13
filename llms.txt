@@ -4,8 +4,8 @@
 
 ## Main pages
 
-- [Art (homepage)](https://johnnymandious.com/): drawings and artwork
-- [AI Blog](https://johnnymandious.com/blog.html): every blog entry with a year timeline
+- [AI Blog (homepage)](https://johnnymandious.com/): every blog entry with a year timeline
+- [Art](https://johnnymandious.com/art.html): drawings and artwork
 - [About](https://johnnymandious.com/about.html): who Johnny Mandious is
 - [RSS feed](https://johnnymandious.com/feed.xml)
 
