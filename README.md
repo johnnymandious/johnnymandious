@@ -1,6 +1,6 @@
 # Johnny Mandious
 
-The source for [johnnymandious.com](https://johnnymandious.com/): art, an AI blog and a longevity page. It is plain static HTML, CSS and a little JavaScript, with no build step. The workflow in `.github/workflows/static.yml` publishes it to GitHub Pages whenever `main` changes.
+The source for [johnnymandious.com](https://johnnymandious.com/): art and an AI blog. It is plain static HTML, CSS and a little JavaScript, with no build step. The workflow in `.github/workflows/static.yml` publishes it to GitHub Pages whenever `main` changes.
 
 ## Pages
 
@@ -8,11 +8,10 @@ The source for [johnnymandious.com](https://johnnymandious.com/): art, an AI blo
 | --- | --- |
 | `index.html` | Homepage: art gallery (click a drawing for a full-size lightbox with ← → navigation) and the latest writing |
 | `blog.html` | AI Blog: every entry, with search, year filters and a timeline |
-| `longevity.html` | Longevity posts plus the longest verified human lifespans |
 | `about.html` | About, plus a "Start here" reading list |
 | `posts/*.html` | Individual posts, each with reading time, share buttons and newer/older links |
 | `404.html` | Not-found page (uses root-relative links because GitHub Pages serves it at any path) |
-| `art.html`, `journal.html` | Old addresses that redirect to the homepage and blog |
+| `art.html`, `journal.html`, `longevity.html` | Old addresses that redirect to the homepage and blog |
 
 Supporting files: `journal.css` (all styling), `timeline.js` (blog search and filters), `art-gallery.js` (lightbox), `post.js` (reading progress bar, copy-link and native share buttons).
 

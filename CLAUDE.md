@@ -9,4 +9,4 @@
 
 ## The site
 
-Plain static HTML, CSS and JavaScript with no build step. See `README.md` for how to add blog posts, longevity posts and drawings, and which files (`blog.html`, `longevity.html`, `feed.xml`, `sitemap.xml`, `llms.txt`) need updating each time.
+Plain static HTML, CSS and JavaScript with no build step. See `README.md` for how to add blog posts and drawings, and which files (`blog.html`, `feed.xml`, `sitemap.xml`, `llms.txt`) need updating each time.

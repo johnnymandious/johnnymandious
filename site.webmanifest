@@ -1,7 +1,7 @@
 {
   "name": "Johnny Mandious",
   "short_name": "Mandious",
-  "description": "Art, an AI blog and thoughts on longevity by Johnny Mandious.",
+  "description": "Art and an AI blog by Johnny Mandious.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
