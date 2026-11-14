@@ -11,7 +11,7 @@
 
 ## Posts
 
-- [RSI has already started](https://johnnymandious.com/posts/rsi-has-already-started.html) (2026-11-14): METR finds Anthropic’s progress running 1.9x faster since October 2025 and Claude leading 26% of model R&D. My thoughts on the early stages of recursive self-improvement.
+- [RSI has already started](https://johnnymandious.com/posts/rsi-has-already-started.html) (2026-11-14): METR finds Anthropic’s AI progress running 1.9x faster and Claude now leading 26% of model R&D. Has recursive self-improvement (RSI) already started?
 - [China is back at the frontier: Kimi K3.1 Pro](https://johnnymandious.com/posts/kimi-k3-1-pro.html) (2026-10-24): Kimi K3.1 Pro puts China back at the AI frontier: an open-weights model that beats Fable 5.1 and every OpenAI model on the Artificial Analysis Intelligence Index, at $2.11 per task.
 - [Mistral just caught up: Mistral Large 4](https://johnnymandious.com/posts/mistral-large-4.html) (2026-10-07): Mistral Large 4 jumped from 9 to 38 on the Intelligence Index, making it the best open model outside China and level with GPT-6 Luna.
 - [The motives behind LLMs](https://johnnymandious.com/posts/the-motives-behind-llms.html) (2026-10-06): An OpenAI model read that it might be shut down and wrote “we may die”. Why do AI models seem to want to live? Reward hacking, the German wiki and 2026 so far.
